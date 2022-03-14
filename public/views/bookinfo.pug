@@ -1,0 +1,21 @@
+html 
+    head 
+        link(rel="stylesheet", href="../style.css")
+        title pug document file 
+    body 
+        div.table 
+            table 
+                thread 
+                    th Book ID
+                    th Book Name 
+                    th Category 
+                    th Price 
+                    th Total Pages
+                tbody 
+                    each x of forms  
+                        tr 
+                            td= x.book_id 
+                            td= x.book_name 
+                            td= x.category 
+                            td= x.price 
+                            td= x.no_of_pages 

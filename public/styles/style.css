@@ -1,0 +1,61 @@
+body{
+    font-family: sans-serif;
+    color: rgb(53, 53, 53);
+}
+h1{
+    font-family: Verdana;
+    background-color: aqua;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    font: size 85px;
+}
+#sm {
+    background-color: rgb(26, 26, 221);
+    color: white;
+}
+#am{
+    background-color: rgb(26, 26, 221);
+    color: white;
+}
+#bm{
+    background-color: rgb(26, 26, 221);
+    color: white;
+}
+#sb{
+    background-color: rgb(26, 26, 221);
+    color: white;
+    padding: 0%;
+}
+a{
+    text-decoration: none;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    width: 260px;
+    height: 60px;
+    font-size: 16px;
+}
+
+.table th{
+    border: 1px solid rgb(0, 0, 0);
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI';
+    background-color: rgb(250, 250, 0);
+}
+.table td{
+    border: 1px solid rgb(0, 0, 0);
+    width: 200px;
+    height: 40px;
+    font-family: 'Segoe UI';
+    text-align: center;
+    font-weight: bold;
+    text-emphasis: none;
+}
+p{
+    font-weight: bold;
+    color: black;
+}

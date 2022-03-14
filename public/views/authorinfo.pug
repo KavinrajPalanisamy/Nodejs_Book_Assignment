@@ -1,0 +1,17 @@
+html 
+    head 
+        link(rel="stylesheet", href="../style.css")
+        title pug document file 
+    body 
+        div.table 
+            table 
+                thread 
+                    th Author ID 
+                    th Author Name 
+                    th City 
+                tbody 
+                    each x of forms  
+                        tr 
+                            td= x.author_id 
+                            td= x.author_name 
+                            td= x.city 
